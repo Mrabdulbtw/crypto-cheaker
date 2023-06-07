@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
 
-      <Router>
+      <Router basename='/crypto-cheaker'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/coinpage/:id' element={< MorInfo />} />

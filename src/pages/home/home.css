@@ -1,0 +1,121 @@
+.head {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.list-container {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-holder {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.refersh-icon {
+    margin-top: 20px;
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}
+
+.coin-search {
+    margin-top: 20px;
+    border: none;
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.coin-details {
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.coin-row {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+   gap: 10px;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+   padding: 15px;
+   border-radius: 5px;
+}
+
+.red {
+    color: red;
+
+}
+
+.green {
+    color: Green;
+}
+
+.coin-row .icon {
+    width: 50px;
+  
+}
+
+.coin-row .coinName {
+    width: 25%;
+    text-align: start;
+    font-size: 14px;
+    font-weight: bold;
+ 
+}
+
+.coin-row .coinSymbol {
+    width: 20%;
+    text-align: start;
+  
+}
+
+.coin-row .price {
+    width: 30%;
+    font-size: 14px;
+    text-align: start;
+    color: rgb(81, 78, 78);
+    font-weight: bold;
+  
+    
+}
+
+.coin-row b {
+    width: 15%;
+    text-align: start;
+    font-weight: 500;
+    
+
+}
+
+.coin-row .market-c {
+    width: 60%;
+    text-align: start;
+    font-size: 14px;
+  
+}
+ .coin-row .more{
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: capitalize;   
+ }
+ .coin-row .more:hover{
+  
+    background-color: #000;
+    color: #fff;
+ }
